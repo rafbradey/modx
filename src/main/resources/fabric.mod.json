@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "modx",
+	"version": "${version}",
+	"name": "modx",
+	"description": "Random Mods that I Created for fun :)",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modx/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.matoza.modx.Modx"
+		],
+		"fabric-datagen": [
+			"com.matoza.modx.ModxDataGenerator"
+		],
+		"client": [
+			"com.matoza.modx.ModxClient"
+		]
+	},
+	"mixins": [
+		"modx.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
