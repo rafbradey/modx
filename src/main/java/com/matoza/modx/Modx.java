@@ -1,5 +1,6 @@
 package com.matoza.modx;
 
+import com.matoza.modx.item.ModxItemGroups;
 import com.matoza.modx.item.ModxItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -25,6 +26,7 @@ public class Modx implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModxItemGroups.registerItemGroups();
 		ModxItems.registerModItems();
 
 

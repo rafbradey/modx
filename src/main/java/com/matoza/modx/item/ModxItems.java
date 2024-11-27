@@ -15,10 +15,12 @@ public class ModxItems {
     public static final Item boomStick = registerItem("boom_stick", new boomStickItem(new Item.Settings().maxDamage(32) ));
     public static final Item MAGIC_WAND = registerItem("magic_wand", new magicWandItem(new Item.Settings().maxDamage(24) ));
 
+    
     public static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Modx.MOD_ID,name), item);
     }
 
+    //register to tools group
     public static void registerModItems(){
         Modx.LOGGER.info("Registering Modx Items");
 
