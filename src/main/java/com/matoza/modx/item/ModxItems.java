@@ -11,7 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModxItems {
-
+    //based on kapuan's fabric tutorial
     public static final Item boomStick = registerItem("boom_stick", new boomStickItem(new Item.Settings().maxDamage(32) ));
     public static final Item MAGIC_WAND = registerItem("magic_wand", new magicWandItem(new Item.Settings().maxDamage(24) ));
 

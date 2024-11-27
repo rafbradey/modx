@@ -2,5 +2,8 @@
   "item.modx.boom_stick": "Boom Stick",
   "item.modx.magic_wand": "Magic Wand",
 
-  "itemgroup.modx.modx_items": "MODX Items"
+  "itemgroup.modx.modx_items": "MODX Items",
+
+  "block.modx.blue_lamp_block": "Blue Lamp Block"
+
 }

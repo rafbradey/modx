@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "modx:block/blue_lamp_block"
+    }
+  }
+}

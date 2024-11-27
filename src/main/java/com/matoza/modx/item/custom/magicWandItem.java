@@ -23,7 +23,8 @@ public class magicWandItem extends Item {
     public static final Map<Block, Block> magicWandMap =
         Map.of(
                 Blocks.GRASS_BLOCK, Blocks.DIAMOND_BLOCK,
-                Blocks.DIRT, Blocks.REDSTONE_BLOCK
+                Blocks.DIRT, Blocks.REDSTONE_BLOCK,
+                Blocks.DIAMOND_BLOCK, Blocks.EMERALD_BLOCK
         );
 
 
