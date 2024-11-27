@@ -1,9 +1,14 @@
 package com.matoza.modx;
 
+import com.matoza.modx.item.ModxItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import static com.matoza.modx.item.ModxItems.boomStick;
 
 public class Modx implements ModInitializer {
 	public static final String MOD_ID = "modx";
@@ -20,5 +25,8 @@ public class Modx implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModxItems.registerModItems();
+
+
 	}
 }
